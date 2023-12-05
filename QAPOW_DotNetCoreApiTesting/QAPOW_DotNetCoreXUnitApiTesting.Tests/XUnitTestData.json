@@ -1,0 +1,41 @@
+﻿[
+	{
+		"TestCaseName": "PostJsonSmokeTest",
+		"ApiName": "TaxAssessment",
+		"RequestMethod": "POST",
+		"ExpectedHTTPStatusCode": "200",
+		"ExpectedHTTPStatusMessage": "OK",
+		"ExpectedErrorMessage": null,
+		"Data": {
+			"RequestSource": "AMP",
+			"RequestType": "TaxFA_TaxLP",
+			"RequestorRequestID": "LW37139244",
+			"SecureToken": "LakewoodSRBeta",
+			"PostBackURL": "http://betasonic:2580/lkwd/lp/tax/response",
+			"LoanNumber": "5308675884",
+			"ClientName": "Adams, Adam",
+			"Property": {
+				"Address1": "35695 Saxony Drive",
+				"Address2": "",
+				"City": "Sterling Heights",
+				"State": "MI",
+				"Zip": "48310",
+				"ZipPlus4": "0000",
+				"County": "Macomb"
+			},
+			"TaxDefault": {
+				"LoanPurpose": "Purchase",
+				"PropertyValue": "250000",
+				"PropertyType": "noncondo",
+				"TaxAmountOverride": "0",
+				"InsuranceOverride": "0"
+			},
+			"LoanInfo": {
+				"AnticipatedClosingDate": "2016-08-22",
+				"FirstPaymentDate": "2016-10-01",
+				"EscrowWaiver": "None",
+				"ScheduledDisbursementDate": "2016-10-01"
+			}
+		}
+	}
+]

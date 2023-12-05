@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<RunSettings>
+	<!-- Parameters used by tests at runtime -->
+	<TestRunParameters>
+		<Parameter name="QuqeUrl" value="http://quqeapibeta.rockfin.com/api/retrieveQuqe"/>
+		<Parameter name="TaxUrl" value="http://taxapibeta.rockfin.com/property/assessment"/>
+		<Parameter name="ODSUrl" value="http://codesapitest.rockfin.com/codes/1200"/>
+	</TestRunParameters>
+</RunSettings>
